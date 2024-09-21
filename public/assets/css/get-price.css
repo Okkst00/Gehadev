@@ -1,0 +1,489 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito&family=Poppins&family=Open+Sans&family=Roboto&display=swap');
+
+* {
+    font-family: nunito, sans-serif;
+}
+
+body {
+    background-color: rgb(239, 255, 244) !important;
+}
+
+/* utilities */
+
+  ::-webkit-scrollbar {
+      width: 10px;
+      padding-left: 5px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px rgb(227, 226, 226); 
+      border-radius: 2px;
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: -webkit-linear-gradient(top, #1aac60 0%, #4bca88 12%, #78e3ac 47%, #1aac60 100%);
+        border-radius: 2px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #4bca88; 
+    }
+
+    .header {
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+        background: rgba(255, 255, 255, 0);
+      }
+      
+      .progress-container {
+        width: 100%;
+        height: 7px;
+        background: rgba(255, 255, 255, 0);
+      }
+      
+      .progress-bar {
+        height: 7px;
+        background-color: #f38d18;
+        /* background: -webkit-linear-gradient(left, #1aac60 0%, #4bca88 12%, rgb(253, 170, 115) 47%, rgb(255, 128, 24) 100%); */
+        width: 0%;
+        border-bottom-right-radius: 12px;
+        border-top-right-radius: 12px;
+      }
+      
+      .content {
+        padding: 100px 0;
+        margin: 50px auto 0 auto;
+        width: 80%;
+      }
+
+
+
+nav {
+    background-color: white;
+}
+
+nav .navbar-brand {
+    font-weight: bold; 
+    font-size: 24px;
+}
+
+nav .container ul li .btn-nav1 {
+    color: black;
+    border-radius: 30px; 
+    background-color: #4bca88;
+    font-weight: bold;
+    border: 0;
+    font-size: 17px;
+}
+
+nav .container ul li .btn-nav1:hover {
+    color: rgb(255, 255, 255);
+    background-color: #09b45b;
+}
+
+.bg-header {
+    background:linear-gradient(to right, #4bca88 0%, #1b1b1b 100%), url('img/gh.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 52px;
+    border-bottom-left-radius: 52px;
+}
+
+.bg-header .row .col h3 {
+  font-weight: bold; 
+  color: white;
+}
+
+.back-btn {
+  text-decoration: none;
+}
+
+.back-btn .btn {
+  color: white;
+  border-radius: 30px; 
+  background-color: rgb(255, 163, 25);
+  font-weight: bold;
+  border: 0;
+  font-size: 20px;
+}
+
+.back-btn .btn:hover {
+  color: rgb(255, 255, 255);
+  background-color: #09b45b;
+}
+
+.main-contents .container .row .col .btn-rst {
+    color: white;
+    border-radius: 30px; 
+    background-color: rgb(255, 32, 32);
+    font-weight: bold;
+    border: 0;
+    font-size: 20px;
+}
+
+.main-contents .container .row .col .btn-rst:hover {
+    background-color: rgb(253, 57, 57);
+}
+
+.main-contents .container .row .col .btn-go {
+    color: rgb(255, 255, 255);
+    border-radius: 30px; 
+    background-color: #007a3b;
+    font-weight: bold;
+    border: 0;
+    font-size: 20px;
+}
+
+.main-contents .container .row .col .btn-go:hover {
+    background-color: #02a14f;
+}
+
+.main-contents .container .row .col form .form-main label{
+  font-weight: bold; 
+  font-size: 20px; 
+  color: rgb(56, 56, 56);
+}
+
+.main-contents .container .row .col form .form-main .form-control{
+  width: 80%; 
+  border-radius: 20px;
+}
+
+.main-contents form input:focus {
+  border-color: rgba(114, 231, 90, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+}
+
+.modal-content {
+  border-radius: 19px;
+}
+
+.modal-pop .modal-dialog .modal-content .modal-header .modal-title {
+  font-weight: 600;
+}
+
+.modal-pop .modal-dialog .modal-content .modal-body .caption {
+  font-weight: 500; 
+  font-size: 19px;
+  color: #727272;
+}
+
+.modal-pop .modal-dialog .modal-content .modal-body .btn-cncl {
+  background-color: #f38d18; 
+  color: rgb(0, 0, 0); 
+  font-weight: 600; 
+  border-radius: 25px; 
+  font-size: 19px;
+}
+
+.modal-pop .modal-dialog .modal-content .modal-body .btn-cncl:hover {
+  background-color: #f8ac56; 
+}
+
+.modal-pop .modal-dialog .modal-content .modal-body .btn-go {
+  background-color: #25b86c; 
+  color: rgb(0, 0, 0); 
+  font-weight: 600; 
+  border-radius: 25px; 
+  font-size: 19px;
+}
+
+.modal-pop .modal-dialog .modal-content .modal-body .btn-go:hover {
+  background-color: #4dd68f; 
+}
+
+.bott-opt {
+  margin-top: 80px; 
+  padding-bottom: 80px;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #33bb75);
+}
+
+.bott-opt .row .col .card {
+  border-radius: 12px;
+}
+
+.bott-opt .row .col .card img {
+  border-radius: 14px; 
+  max-height: 160px; 
+  min-height: 160px; 
+  object-fit: cover;
+}
+
+.bott-opt .container .row .col .card .card-body .card-title{
+  font-weight: bold;
+}
+
+.bott-opt .container .row .col .card .card-body .card-text{
+  font-size: 15px;
+}
+
+.bott-opt .container .row .col .card .card-body .groups .btn{
+  background-color: #4bca88; 
+  color: white; 
+  font-weight: 500;
+}
+
+.bott-opt .container .row .col .card .card-body .groups .btn:hover{
+  background-color: #f38d18; 
+}
+
+.bott-opt .container .row .col .card .card-body .groups .support-txt{
+  font-size: 15px;
+}
+
+/* .borders-top {
+    display: block;
+    content: "";
+    height: 6px;
+    background: -webkit-linear-gradient(left, #1aac60 0%, #4bca88 12%, #7eeab2 47%, #1aac60 100%);
+} */
+
+
+
+@media (max-width:768px) {
+
+  nav .navbar-brand {
+    font-weight: bold; 
+    font-size: 25px;
+  }
+
+  
+  nav .container ul li .btn-nav1 {
+    color: black;
+    border-radius: 30px; 
+    background-color: #4bca88;
+    font-weight: bold;
+    border: 0;
+    font-size: 20px;
+  }
+
+  .back-btn .btn {
+    color: white;
+    border-radius: 30px; 
+    background-color: rgb(255, 163, 25);
+    font-weight: bold;
+    border: 0;
+    font-size: 19px;
+  }
+
+  .main-contents .container .row .col .btn-rst {
+    color: white;
+    border-radius: 30px; 
+    background-color: rgb(255, 32, 32);
+    font-weight: bold;
+    border: 0;
+    font-size: 19px;
+  }
+
+  .main-contents .container .row .col .btn-rst:hover {
+      background-color: rgb(253, 57, 57);
+  }
+
+  .main-contents .container .row .col .btn-go {
+      color: rgb(255, 255, 255);
+      border-radius: 30px; 
+      background-color: #007a3b;
+      font-weight: bold;
+      border: 0;
+      font-size: 19px;
+  }
+
+  .main-contents .container .row .col .btn-go:hover {
+      background-color: #02a14f;
+  }
+
+
+  .modal-content {
+    border-radius: 17px;
+  }
+  
+
+  .bott-opt {
+    margin-top: -40px; 
+    padding-top: 130px; 
+    padding-bottom: 80px; 
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #33bb75);
+  }
+  
+  .bott-opt .row .col .card{
+    border-radius: 7px;
+  }
+
+  .bott-opt .row .col .card img {
+    border-radius: 19px; 
+    max-height: 160px; 
+    min-height: 160px; 
+    object-fit: cover;
+  }
+  
+  .bott-opt .container .row .col .card .card-body .card-title{
+    font-weight: bold;
+  }
+  
+  .bott-opt .container .row .col .card .card-body .card-text{
+    font-size: 15px;
+  }
+  
+  .bott-opt .container .row .col .card .card-body .groups .btn{
+    background-color: #4bca88; 
+    color: white; 
+    font-weight: 500;
+  }
+  
+  .bott-opt .container .row .col .card .card-body .groups .support-txt{
+    font-size: 15px;
+  }
+
+}
+
+
+
+
+
+@media (max-width:450px) {
+
+
+  nav .navbar-brand {
+    font-weight: bold; 
+    font-size: 24px;
+  }
+
+  
+  nav .container ul li .btn-nav1 {
+    color: black;
+    border-radius: 30px; 
+    background-color: #4bca88;
+    font-weight: bold;
+    border: 0;
+    font-size: 18px;
+  }
+
+
+  .back-btn .btn {
+    color: white;
+    border-radius: 0;
+    border-top-right-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+    background-color: rgb(255, 163, 25);
+    font-weight: bold;
+    border: 0;
+    font-size: 18px;
+  }
+
+  .main-contents .container .row .col .btn-rst {
+    color: white;
+    border-radius: 30px; 
+    background-color: rgb(255, 32, 32);
+    font-weight: bold;
+    border: 0;
+    font-size: 19px;
+}
+
+  .main-contents .container .row .col .btn-rst:hover {
+      background-color: rgb(253, 57, 57);
+  }
+
+  .main-contents .container .row .col .btn-go {
+      color: rgb(255, 255, 255);
+      border-radius: 30px; 
+      background-color: #007a3b;
+      font-weight: bold;
+      border: 0;
+      font-size: 19px;
+  }
+
+  .main-contents .container .row .col .btn-go:hover {
+      background-color: #02a14f;
+  }
+
+  .main-contents .container .row .col form .form-main label{
+    font-weight: bold; 
+    font-size: 19px; 
+    color: rgb(56, 56, 56);
+  }
+    
+  .main-contents .container .row .col form .form-main .form-control{
+    width: 100%; 
+    border-radius: 20px;
+  }
+
+
+  .modal-content {
+    border-radius: 17px;
+  }
+  
+  .modal-pop .modal-dialog .modal-content .modal-header .modal-title {
+    font-weight: 600;
+  }
+  
+  .modal-pop .modal-dialog .modal-content .modal-body .caption {
+    font-weight: 500; 
+    font-size: 19px;
+    color: #727272;
+  }
+  
+  .modal-pop .modal-dialog .modal-content .modal-body .btn-cncl {
+    background-color: #f38d18; 
+    color: rgb(0, 0, 0); 
+    font-weight: 600; 
+    border-radius: 25px; 
+    font-size: 19px;
+  }
+  
+  .modal-pop .modal-dialog .modal-content .modal-body .btn-cncl:hover {
+    background-color: #f8ac56; 
+  }
+  
+  .modal-pop .modal-dialog .modal-content .modal-body .btn-go {
+    background-color: #25b86c; 
+    color: rgb(0, 0, 0); 
+    font-weight: 600; 
+    border-radius: 25px; 
+    font-size: 19px;
+  }
+  
+  .modal-pop .modal-dialog .modal-content .modal-body .btn-go:hover {
+    background-color: #4dd68f; 
+  }
+
+
+  .bott-opt {
+    margin-top: -40px; 
+    padding-top: 170px; 
+    padding-bottom: 80px; 
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #33bb75);
+  }
+  
+  .bott-opt .row .col .card img {
+    border-radius: 14px; 
+    max-height: 160px; 
+    min-height: 160px; 
+    object-fit: cover;
+  }
+  
+  .bott-opt .container .row .col .card .card-body .card-title{
+    font-weight: bold;
+  }
+  
+  .bott-opt .container .row .col .card .card-body .card-text{
+    font-size: 14px;
+  }
+  
+  .bott-opt .container .row .col .card .card-body .groups .btn{
+    background-color: #4bca88; 
+    color: white; 
+    font-weight: 500;
+  }
+  
+  .bott-opt .container .row .col .card .card-body .groups .support-txt{
+    font-size: 15px;
+  }
+
+}

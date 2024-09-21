@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,500&display=swap");
+
+* {
+    font-family: nunito, sans-serif;
+}
+
+body {
+    background-color: #dbffec;
+}
+
+.gehadev-pack {
+    position: absolute;
+    background-color: #adadad;
+    color: white;
+    width: fit-content;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 4px;
+    right: 8%;
+    top: 35px;
+}
+
+.btn-back {
+    position: absolute;
+    border-radius: 30px;
+    background-color: rgb(255, 163, 25);
+    color: white;
+    width: fit-content;
+    font-size: 18px;
+    left: 10%;
+    top: 30px;
+    text-decoration: none;
+}
+
+.btn-back:hover {
+    color: rgb(255, 255, 255);
+    background-color: #09b45b;
+}
+
+.main-title {
+    font-weight: 700;
+    border-bottom: 3px solid rgb(230, 161, 71);
+}
+
+#title,
+#category {
+    font-size: 16px;
+    color: rgb(68, 68, 68);
+}
+
+.ck-editor__editable {
+    min-height: 300px;
+    max-height: 300px;
+    font-size: 16px;
+    color: rgb(68, 68, 68);
+}
+
+.ck-editor__editable::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.ck-editor__editable::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.ck-editor__editable::-webkit-scrollbar-thumb {
+    background-color: rgb(17, 202, 147);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ck-editor__editable::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(230, 161, 71);
+}
+
+.imageOld {
+    width: 25%;
+}
+
+@media (max-width: 768px) {
+    .imageOld {
+        width: 35%;
+    }
+
+    .btn-back {
+        left: 6%;
+        top: 25px;
+    }
+}
+
+@media (max-width: 450px) {
+    .imageOld {
+        width: 45%;
+    }
+
+    .gehadev-pack {
+        display: none;
+    }
+
+    .btn-back {
+        left: 6%;
+        top: 25px;
+    }
+}

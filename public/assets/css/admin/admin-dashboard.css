@@ -1,0 +1,368 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito&family=Poppins&family=Open+Sans&family=Roboto&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,500&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap'); */
+
+* {
+    font-family: nunito, sans-serif;
+}
+
+.container .row .main-section .navbar .container-fluid .navbar-brand {
+    color: rgb(22, 22, 22);
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.container .row .main-section .navbar .container-fluid ul li .btn-log {
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: #f74747;
+    border-radius: 14px;
+}
+
+.container .row .main-section .navbar .container-fluid ul li .btn-log:hover {
+    opacity: 0.7;
+}
+
+.side-bars::-moz-scrollbar {
+    width: 0.5em;
+}
+
+.side-bars::-moz-scrollbar-track {
+    border-radius: 10px;
+}
+
+.side-bars::-moz-scrollbar-thumb {
+    background-color: rgb(226, 155, 0);
+    border-radius: 10px;
+}
+
+.side-bars::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.side-bars::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.side-bars::-webkit-scrollbar-thumb {
+    background-color: rgb(226, 155, 0);
+    border-radius: 10px;
+}
+
+.offcanvas .offcanvas-title {
+    color: white;
+}
+
+.offcanvas .offcanvas-header .btn-close {
+    color: white;
+}
+
+.container .row .side-bars {
+    height: 93vh;
+    overflow: auto;
+    border-radius: 20px;
+    background-color: #0f8146;
+    border-top: 8px solid white;
+}
+
+.container .row .side-bars .card {
+    background-color: transparent;
+}
+
+.container .row .side-bars img {
+    min-width: 95px;
+    max-width: 95px;
+    min-height: 95px;
+    max-height: 95px;
+    object-fit: cover;
+}
+
+.container .row .side-bars .headtext {
+    font-size: 15px;
+}
+
+.container .row .side-bars .card .side-txt {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.container .row .side-bars .card .side-txt.active {
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(245, 185, 96);
+    border-left: 2px solid orange;
+}
+
+.container .row .main-section .btn-side {
+    display: none;
+}
+
+.container .row .main-section .side-mob {
+    display: none;
+}
+
+.container .row .main-contents .col {
+    border-radius: 14px;
+}
+
+.container .row .main-contents .col .header-txt {
+    color: rgb(46, 46, 46);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container .row .main-contents .col .count-txt1 {
+    color: #0f8146;
+    font-size: 46px;
+    font-weight: 700;
+    background-color: #79ebb0;
+    width: 80%;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.container .row .main-contents .col .count-txt1:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.container .row .main-contents .col .count-txt2 {
+    color: #d88303;
+    font-size: 46px;
+    font-weight: 700;
+    background-color: #ffe3ae;
+    width: 80%;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.container .row .main-contents .col .count-txt2:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.container .row .main-contents .col .count-txt3 {
+    color: #0697aa;
+    font-size: 46px;
+    font-weight: 700;
+    background-color: #c2e8ff;
+    width: 80%;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.container .row .main-contents .col .count-txt3:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+@media (max-width: 990px) {
+    .container .row .side-bars {
+        display: none;
+    }
+
+    .container .row .main-section .btn-side {
+        display: block;
+        width: 8%;
+        background-color: #0f8146;
+        color: white;
+    }
+
+    .container .row .main-section .side-mob {
+        display: block;
+        background-color: #0f8146;
+        width: 55%;
+        overflow: scroll;
+        border-radius: 0px 10px 10px 0;
+    }
+
+    .container .row .main-section .side-mob .offcanvas-body img {
+        min-width: 185px;
+        max-width: 185px;
+        min-height: 185px;
+        max-height: 185px;
+        object-fit: cover;
+    }
+
+    .container .row .main-section .side-mob .offcanvas-body .headtext {
+        font-size: 23px;
+    }
+
+    .container .row .main-section .side-mob .offcanvas-body .card .side-txt {
+        font-size: 22px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .container
+        .row
+        .main-section
+        .side-mob
+        .offcanvas-body
+        .card
+        .side-txt.active {
+        font-size: 22px;
+        text-decoration: none;
+        color: rgb(245, 185, 96);
+        border-left: 2px solid orange;
+    }
+
+    .container .row .main-contents .col .card {
+        border-radius: 14px;
+    }
+
+    .container .row .main-contents .col .card .header-txt {
+        color: rgb(46, 46, 46);
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container .row .side-bars {
+        display: none;
+    }
+
+    .container .row .main-section .btn-side {
+        display: block;
+        width: 8%;
+        background-color: #0f8146;
+        color: white;
+    }
+
+    .container .row .main-section .side-mob {
+        display: block;
+        background-color: #0f8146;
+        width: 55%;
+        overflow: scroll;
+        border-radius: 0px 10px 10px 0;
+    }
+
+    .container .row .main-section .side-mob .offcanvas-body img {
+        min-width: 185px;
+        max-width: 185px;
+        min-height: 185px;
+        max-height: 185px;
+        object-fit: cover;
+    }
+
+    .container .row .main-section .side-mob .offcanvas-body .headtext {
+        font-size: 23px;
+    }
+
+    .container .row .main-section .side-mob .offcanvas-body .card .side-txt {
+        font-size: 22px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .container
+        .row
+        .main-section
+        .side-mob
+        .offcanvas-body
+        .card
+        .side-txt.active {
+        font-size: 22px;
+        text-decoration: none;
+        color: rgb(245, 185, 96);
+        border-left: 2px solid orange;
+    }
+
+    .container .row .main-contents .col .card {
+        border-radius: 14px;
+    }
+
+    .container .row .main-contents .col .card .header-txt {
+        color: rgb(46, 46, 46);
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 450px) {
+    .container .row .main-section .navbar .container-fluid .navbar-brand {
+        font-size: 20px;
+    }
+
+    .container .row .main-section .navbar .container-fluid ul li .btn-log {
+        font-weight: 500;
+        border-radius: 15px;
+    }
+
+    .container .row .side-bars {
+        display: none;
+    }
+
+    .container .row .main-section .btn-side {
+        display: block;
+        width: 15%;
+        background-color: #0f8146;
+        color: white;
+    }
+
+    .container .row .main-section .side-mob {
+        display: block;
+        background-color: #0f8146;
+        width: 75%;
+        overflow: scroll;
+        border-radius: 0px 10px 10px 0;
+    }
+
+    .container .row .main-section .side-mob .offcanvas-body img {
+        min-width: 135px;
+        max-width: 135px;
+        min-height: 135px;
+        max-height: 135px;
+        object-fit: cover;
+    }
+
+    .container .row .main-section .side-mob .offcanvas-body .headtext {
+        font-size: 21px;
+    }
+
+    .container .row .main-section .side-mob .offcanvas-body .card .side-txt {
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .container
+        .row
+        .main-section
+        .side-mob
+        .offcanvas-body
+        .card
+        .side-txt.active {
+        font-size: 18px;
+        text-decoration: none;
+        color: rgb(245, 185, 96);
+        border-left: 2px solid orange;
+    }
+
+    .container .row .main-contents .col .card {
+        border-radius: 14px;
+    }
+
+    .container .row .main-contents .col .card .header-txt {
+        color: rgb(46, 46, 46);
+        font-size: 16px;
+    }
+}

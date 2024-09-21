@@ -1,0 +1,226 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito&family=Poppins&family=Open+Sans&family=Roboto&display=swap');
+
+* {
+    font-family: nunito, sans-serif;
+}
+
+body {
+    background-color: #d1ffe7;
+}
+
+/* 
+.bt-home a {
+    background-color: #f8a13d; 
+    color: white;
+    text-decoration: none;
+}
+
+.bt-home a:hover{
+    background-color: #fdb058; 
+    color: white;
+} */
+
+
+
+.bt-home .container-fluid .row .col a .bt-homes {
+    background-color: #f8a13d; 
+    color: white;
+    font-size: 19px;
+    border-radius: 10px;
+    font-weight: bold; 
+    animation: shake1 6s linear infinite ;
+    animation-delay: .2s;
+}
+
+@keyframes shake1 {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+    
+    30%, 50%, 70% {
+      transform: translate3d(-2px, 0, 0);
+    }
+    40%, 60% {
+      transform: translate3d(2px, 0, 0);
+    }
+  }
+  
+
+.bt-home .container-fluid .row .col a .bt-homes:hover{
+    background-color: #fdb058; 
+    color: white;
+    animation-play-state: paused;
+}
+
+.bgr-about {
+    margin-top: 1px; 
+    padding-top: 40px; 
+    margin-bottom: 20px;
+}
+
+.bgr-about .container h3 {
+    font-weight: bold; 
+    font-size: 29px;
+}
+
+.bgr-about .container h3 span::before {
+    content: "Bos";
+    animation: change infinite 4s;
+}
+
+
+@keyframes change {
+
+    0% {
+        transform: translateY(1rem);
+        content: "Bos";
+    }
+
+    50% {
+        transform: translateY(1rem);
+        content: "Kak";
+    }
+
+    75% {
+        transform: translateY(1rem);
+        content: "Cuy";
+    }
+}
+
+@-webkit-keyframes change {
+
+    0% {
+        transform: translateY(1rem);
+        content: "Bos";
+    }
+
+    50% {
+        transform: translateY(1rem);
+        content: "Kak";
+    }
+
+    75% {
+        transform: translateY(1rem);
+        content: "Cuy";
+    }
+}
+
+
+.bgr-about .container .row .main-about {
+    border-radius: 12px; 
+    border-bottom: 4px solid #4bca88; 
+    background-color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.bgr-about .container .row .main-about:hover {
+  border-bottom: 4px solid #f8a13d; 
+  transform: translate(0, -4px);
+}
+
+.bgr-about .container .row .main-about img {
+    min-height: 205px; 
+    max-height: 205px; 
+    object-fit: cover; 
+}
+
+.bgr-about .container .row .main-about p {
+    color: rgb(41, 41, 41);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.bgr-about .container .content-menu .main-menu-content .page {
+  display: none;
+}
+
+.bgr-about .container .content-menu .main-menu-content .page.active {
+  display: block;
+}
+
+.bgr-about .container .about2 #menu button {
+  border-radius: 22px; 
+  background-color: #4bca88; 
+  color: white; 
+  font-weight: 500;
+  font-size: 19px;
+}
+
+.bgr-about .container .about2 #menu button:hover {
+  border-radius: 22px; 
+  background-color: #f8a13d; 
+  color: white; 
+  font-weight: 500;
+}
+
+.bgr-about .container .about2 #menu button.active {
+  border-radius: 22px; 
+  background-color: #f8a13d; 
+  color: white; 
+  font-weight: 500;
+}
+
+.bgr-about .container .content-menu {
+  height: 330px; 
+  overflow:auto;
+}
+
+.bgr-about .container .content-menu .main-menu-content .page .text1 {
+  list-style: none; 
+  font-size: 19px; 
+  font-weight: 600; 
+  color: rgb(92, 92, 92);
+}
+
+.bgr-about .container .content-menu .main-menu-content .page .text1 i{
+  color: #4bca88;
+}
+
+.bgr-about .container .content-menu .main-menu-content .page .text2{
+  font-size: 19px; 
+  font-weight: 600; 
+  color: rgb(92, 92, 92);
+}
+
+.bgr-about .container .content-menu .main-menu-content #d2 .container .image-d2 {
+  max-width: 500px;
+}
+
+.bgr-about .container .content-menu .main-menu-content #d3 .row .card {
+  border-radius: 12px;
+}
+
+.bgr-about .container .content-menu .main-menu-content #d3 .row .card img{
+  max-height: 160px; 
+  min-height: 160px; 
+  object-fit: cover; 
+  border-radius: 14px;
+}
+
+.bgr-about .container .content-menu .main-menu-content #d3 .row .card .card-body .card-title{
+  font-weight: 600; 
+  color: black; 
+  font-size: 19px;
+}
+
+.bgr-about .container .content-menu .main-menu-content #d3 .row .card .card-body .card-text{
+  font-size: 15px;
+}
+
+.bgr-about .container .content-menu .main-menu-content #d3 .row .card .card-body .btn {
+  background-color: #4bca88; 
+  color: white;
+  font-size: 16px;
+}
+
+.bgr-about .container .content-menu .main-menu-content #d3 .row .card .card-body .btn:hover {
+  background-color: #f8a13d; 
+  color: white;
+}
+

@@ -1,0 +1,524 @@
+body {
+    overflow-x: hidden;
+}
+
+#title,
+#category {
+    font-size: 16px;
+    color: rgb(68, 68, 68);
+}
+
+.ck-editor__editable {
+    min-height: 300px;
+    max-height: 300px;
+    font-size: 16px;
+    color: rgb(68, 68, 68);
+}
+
+.ck-editor__editable::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.ck-editor__editable::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.ck-editor__editable::-webkit-scrollbar-thumb {
+    background-color: rgb(17, 202, 147);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ck-editor__editable::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(230, 161, 71);
+}
+
+.container .row .main-section .navbar .container-fluid .navbar-brand {
+    color: rgb(22, 22, 22);
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.container .row .main-section .navbar .container-fluid ul li .btn-log {
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: #f74747;
+    border-radius: 14px;
+}
+
+.container .row .main-section .navbar .container-fluid ul li .btn-log:hover {
+    opacity: 0.7;
+}
+
+.side-bars::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.side-bars::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.side-bars::-webkit-scrollbar-thumb {
+    background-color: rgb(226, 155, 0);
+    border-radius: 10px;
+}
+
+.container .row .side-bars {
+    height: 93vh;
+    overflow: auto;
+    border-radius: 20px;
+    background-color: #0f8146;
+    border-top: 8px solid white;
+}
+
+.container .row .side-bars .card {
+    background-color: transparent;
+}
+
+.container .row .side-bars img {
+    min-width: 95px;
+    max-width: 95px;
+    min-height: 95px;
+    max-height: 95px;
+    object-fit: cover;
+}
+
+.container .row .side-bars .headtext {
+    font-size: 15px;
+}
+
+.container .row .side-bars .card .side-txt {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.container .row .side-bars .card .side-txt.active {
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(245, 185, 96);
+    border-left: 2px solid orange;
+}
+
+.container .row .main-section .btn-side {
+    display: none;
+    background-color: #0f8146;
+    color: white;
+}
+
+.container .row .main-section .btn-side:hover {
+    opacity: 0.7;
+}
+
+.container .row .main-section .side-mob {
+    display: none;
+}
+
+.articles .container .row .col .card {
+    margin-top: 10px;
+    transition: 0.3s;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+}
+
+.articles .container .row .col .card:hover {
+    transform: translate(0, -5px);
+    box-shadow: 3px 4px 10px #c7c7c7;
+}
+
+.articles .container .col .card .img-fluid {
+    min-height: 170px;
+    max-height: 170px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.articles .container .row .col .card .card-body h6 a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fa9c31;
+    background-color: #fde2c0;
+    border-radius: 6px;
+    width: fit-content;
+}
+
+.articles .container .row .col .card .card-body h6 a:hover {
+    color: #e4810f;
+}
+
+.articles .container .row .col .card .card-body h5 .title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: black;
+    text-decoration: none;
+}
+
+.articles .container .row .col .card .card-body h5 a:hover {
+    color: #f38d18;
+}
+
+.articles .container .row .col .card .card-body .btn-group .edit {
+    background-color: #e4810f;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 7px;
+    font-size: 13px;
+}
+
+.articles .container .row .col .card .card-body .btn-group .edit:hover {
+    opacity: 0.8;
+}
+
+.articles .container .row .col .card .card-body .btn-group .delete {
+    background-color: #f14242;
+    color: #fdfdfd;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 7px;
+    font-size: 13px;
+}
+
+.articles .container .row .col .card .card-body .btn-group .delete:hover {
+    opacity: 0.8;
+}
+
+.articles .container .row .col .card .card-body .text-muted {
+    font-size: 13px;
+}
+
+@media (min-width: 1920px) {
+    .articles .container .row .col .card img {
+        min-height: 170px;
+        max-height: 170px;
+        border-radius: 6px;
+        object-fit: cover;
+    }
+
+    .articles .container .row .col .card .card-body h6 a {
+        font-size: 15px;
+        font-weight: bold;
+        color: #fd9a2a;
+        background-color: #fde2c0;
+        border-radius: 6px;
+        width: fit-content;
+    }
+
+    .articles .container .row .col .card .card-body h5 .title {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 27px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .articles .container .row .col .card .card-body .btn-group .edit {
+        background-color: #e4810f;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 7px;
+    }
+
+    .articles .container .row .col .card .card-body .btn-group .edit:hover {
+        opacity: 0.8;
+    }
+
+    .articles .container .row .col .card .card-body .btn-group .delete {
+        background-color: #f14242;
+        color: #fdfdfd;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 7px;
+    }
+
+    .articles .container .row .col .card .card-body .btn-group .delete:hover {
+        opacity: 0.8;
+    }
+
+    .articles .container .row .col .card .card-body .text-muted {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 990px) {
+    .container .row .side-bars {
+        display: none;
+    }
+
+    .container .row .main-section .btn-side {
+        display: block;
+        width: 8%;
+        background-color: #0f8146;
+        color: white;
+    }
+
+    .container .row .main-section .side-mob {
+        display: block;
+        background-color: #0f8146;
+        width: 55%;
+        overflow: scroll;
+        border-radius: 0px 10px 10px 0;
+    }
+
+    .container .row .main-section .side-mob .offcanvas-body img {
+        min-width: 185px;
+        max-width: 185px;
+        min-height: 185px;
+        max-height: 185px;
+        object-fit: cover;
+    }
+
+    .container .row .main-section .side-mob .offcanvas-body .headtext {
+        font-size: 23px;
+    }
+
+    .container .row .main-section .side-mob .offcanvas-body .card .side-txt {
+        font-size: 22px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .container
+        .row
+        .main-section
+        .side-mob
+        .offcanvas-body
+        .card
+        .side-txt.active {
+        font-size: 22px;
+        text-decoration: none;
+        color: rgb(245, 185, 96);
+        border-left: 2px solid orange;
+    }
+
+    .container .row .main-contents .col .card {
+        border-radius: 14px;
+    }
+
+    .container .row .main-contents .col .card .header-txt {
+        color: rgb(46, 46, 46);
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container .row .side-bars {
+        display: none;
+    }
+
+    .container .row .main-section .btn-side {
+        display: block;
+        width: 8%;
+    }
+
+    .container .row .main-section .side-mob {
+        display: block;
+        background-color: #0f8146;
+        width: 55%;
+        overflow: scroll;
+        border-radius: 0px 10px 10px 0;
+    }
+
+    .container .row .main-section .side-mob .offcanvas-body img {
+        min-width: 185px;
+        max-width: 185px;
+        min-height: 185px;
+        max-height: 185px;
+        object-fit: cover;
+    }
+
+    .container .row .main-section .side-mob .offcanvas-body .headtext {
+        font-size: 23px;
+    }
+
+    .container .row .main-section .side-mob .offcanvas-body .card .side-txt {
+        font-size: 22px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .container
+        .row
+        .main-section
+        .side-mob
+        .offcanvas-body
+        .card
+        .side-txt.active {
+        font-size: 22px;
+        text-decoration: none;
+        color: rgb(245, 185, 96);
+        border-left: 2px solid orange;
+    }
+
+    .articles .container .row .col .card {
+        margin-top: 10px;
+        transition: 0.3s;
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 15px;
+    }
+
+    .articles .container .row .col .card:hover {
+        transform: translate(0, -5px);
+        box-shadow: 3px 4px 10px #c7c7c7;
+    }
+
+    .articles .container .col .card img {
+        min-height: 170px;
+        max-height: 170px;
+        border-radius: 6px;
+        object-fit: cover;
+    }
+
+    .articles .container .row .col .card .card-body h5 a {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 27px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .articles .container .row .col .card .card-body h6 a {
+        font-size: 13px;
+        font-weight: bold;
+        color: #fa9c31;
+        background-color: #fde2c0;
+        border-radius: 6px;
+        width: fit-content;
+    }
+
+    .articles .container .row .col .card .card-body h6 a:hover {
+        color: #e4810f;
+    }
+
+    .articles .container .row .col .card .card-body .btn-group .edit {
+        background-color: #e4810f;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 7px;
+    }
+
+    .articles .container .row .col .card .card-body .btn-group .edit:hover {
+        opacity: 0.8;
+    }
+
+    .articles .container .row .col .card .card-body .btn-group .delete {
+        background-color: #f14242;
+        color: #fdfdfd;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 7px;
+    }
+
+    .articles .container .row .col .card .card-body .btn-group .delete:hover {
+        opacity: 0.8;
+    }
+}
+
+@media (max-width: 450px) {
+    .container .row .side-bars {
+        display: none;
+    }
+
+    .container .row .main-section .btn-side {
+        display: block;
+        width: 15%;
+    }
+
+    .container .row .main-section .side-mob {
+        display: block;
+        background-color: #0f8146;
+        width: 75%;
+        overflow: scroll;
+        border-radius: 0px 10px 10px 0;
+    }
+
+    .container .row .main-section .side-mob .offcanvas-body img {
+        min-width: 135px;
+        max-width: 135px;
+        min-height: 135px;
+        max-height: 135px;
+        object-fit: cover;
+    }
+
+    .container .row .main-section .side-mob .offcanvas-body .headtext {
+        font-size: 21px;
+    }
+
+    .container .row .main-section .side-mob .offcanvas-body .card .side-txt {
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .container
+        .row
+        .main-section
+        .side-mob
+        .offcanvas-body
+        .card
+        .side-txt.active {
+        font-size: 18px;
+        text-decoration: none;
+        color: rgb(245, 185, 96);
+        border-left: 2px solid orange;
+    }
+
+    .articles .container .row .col .card {
+        margin-top: 10px;
+        transition: 0.3s;
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 15px;
+    }
+
+    .articles .container .row .col .card:hover {
+        transform: translate(0, -5px);
+        box-shadow: 3px 4px 10px #c7c7c7;
+    }
+
+    .articles .container .col .card img {
+        min-height: 200px;
+        max-height: 200px;
+        border-radius: 6px;
+        object-fit: cover;
+    }
+
+    .articles .container .row .col .card .card-body h6 a {
+        font-size: 13px;
+        font-weight: bold;
+        color: #fa9c31;
+        background-color: #fde2c0;
+        border-radius: 6px;
+        width: fit-content;
+    }
+
+    .articles .container .row .col .card .card-body h6 a:hover {
+        color: #e4810f;
+    }
+
+    .articles .container .row .col .card .card-body .btn-group .edit {
+        background-color: #e4810f;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 7px;
+    }
+
+    .articles .container .row .col .card .card-body .btn-group .edit:hover {
+        opacity: 0.8;
+    }
+
+    .articles .container .row .col .card .card-body .btn-group .delete {
+        background-color: #f14242;
+        color: #fdfdfd;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 7px;
+    }
+
+    .articles .container .row .col .card .card-body .btn-group .delete:hover {
+        opacity: 0.8;
+    }
+}

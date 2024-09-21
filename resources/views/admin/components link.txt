@@ -1,0 +1,34 @@
+
+Note =
+Styling media max 1920px for main page view
+Styling free media query for large monitor
+
+or
+
+change media query max1920px to min1920px
+
+
+Laravel visitors count --
+https://postsrc.com/code-snippets/laravel-visitors-counter
+https://stackoverflow.com/questions/29694372/laravel-visitors-counter
+https://emka.web.id/tutorial/tutorial-php/cara-membuat-visitor-counter-di-laravel-dengan-laravel-visits/
+
+Laravel if else --
+https://www.devopsschool.com/blog/conditional-if-else-elseif-isset-empty-and-unless-statements-in-laravel/
+https://laracasts.com/discuss/channels/laravel/how-to-check-if-else-condition-in-blade-laravel
+
+Laravel Forward Chain --
+https://jurnal.mdp.ac.id/index.php/jatisi/article/view/567/406
+https://github.com/ambrizals/Sistem-pakar-Laravel
+
+Css components --
+https://stackoverflow.com/questions/42415141/what-is-the-media-query-for-large-desktops
+https://alvarotrigo.com/blog/drop-down-menu-javascript/
+https://codepen.io/rezk/pen/PegNRY
+https://html-shark.com/HTML/ShowHideSections.htm
+https://mycode.blog/navya/all-possible-methods-rotate-arrow-icon-click-accordionbootstrap
+https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp
+
+Laravel scraping --
+https://juangsalazprabowo.medium.com/how-to-scraping-a-website-using-php-curl-in-laravel-framework-446ea0e97219
+https://laravel-news.com/roach-php
